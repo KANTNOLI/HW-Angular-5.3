@@ -1,0 +1,5 @@
+<section class="filter">
+  <input type="text" [(ngModel)]="search" (keyup)="searchUpdate(search)" />
+  <button (click)="sortArray(1)">price</button>
+  <button (click)="sortArray(0)">title</button>
+</section>

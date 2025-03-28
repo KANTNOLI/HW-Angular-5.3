@@ -4,15 +4,11 @@
   padding: 0;
 }
 
-body {
-  background-color: black;
-}
-
 div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: aquamarine;
+  background-color: rgb(53, 53, 53);
   width: 800px;
   height: 80px;
 }
@@ -21,5 +17,5 @@ div a {
   margin: 5px;
   width: 100%;
   height: calc(100% - 20px);
-  background-color: red;
+  background-color: rgb(119, 119, 119);
 }
